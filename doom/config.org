@@ -1,0 +1,19 @@
+* Doom
+#+begin_src emacs-lisp
+(map!
+ "M-w" #'switch-window
+ "M-p" #'paredit-mode
+ "M-m" #'comment-line
+
+
+                )
+
+#+end_src
+
+
+* Theme
+#+begin_src emacs-lisp
+(setq doom-theme
+      'wombat)
+
+#+end_src
